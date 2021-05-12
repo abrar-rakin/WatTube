@@ -1,0 +1,69 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  /* background-image: radial-gradient(#ca0853 1px, transparent 1px); */
+  /* background-image: radial-gradient(#fdd54f 1px, transparent 1px); */
+  background-image: radial-gradient(#ffb26b 1px, transparent 1px);
+  background-size: 90px 90px;
+}
+.full {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  padding-top: 5%;
+  text-align: center;
+  /* font-family: "Courgette", cursive; */
+  font-family: "Pacifico", cursive;
+  font-weight: bold;
+  font-size: 10vw;
+}
+
+.btn {
+  margin-left: 2%;
+  cursor: pointer;
+  border: none;
+  background-image: none;
+  background-color: #ffb26b;
+  font-weight: bolder;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 15%;
+}
+
+.btn2 {
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  cursor: pointer;
+  border: none;
+  background-image: none;
+  background-color: #ffb26b;
+  font-weight: bolder;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 5%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: #ffb26b;
+}
