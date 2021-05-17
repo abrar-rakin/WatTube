@@ -3,5 +3,3 @@ WatTube is an online video platform, built using React.js, that fetches videos f
 
 Live - https://wattube.netlify.app/
 
-Demo - https://abrarrakin.netlify.app/wattube.gif
-
