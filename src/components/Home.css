@@ -22,7 +22,7 @@ body {
   /* font-family: "Courgette", cursive; */
   font-family: "Pacifico", cursive;
   font-weight: bold;
-  font-size: 10vw;
+  font-size: 9.5rem;
 }
 
 .btn {
@@ -33,13 +33,14 @@ body {
   background-color: #ffb26b;
   font-weight: bolder;
   color: black;
-  padding: 15px 32px;
+  /* padding: 15px 32px; */
+  padding: 15px 0;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.15rem;
   border-radius: 8px;
-  width: 15%;
+  width: 14.5rem;
 }
 
 .btn2 {
@@ -52,19 +53,42 @@ body {
   background-color: #ffb26b;
   font-weight: bolder;
   color: black;
-  padding: 15px 32px;
+  padding: 15px 0;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
   font-size: 20px;
   border-radius: 8px;
-  width: 5%;
-  height: 8%;
+  width: 4.75rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 0%;
 }
 
 .title {
   color: #ffb26b;
+}
+
+@media screen and (max-width: 700px) {
+  .btn {
+    margin-bottom: 2%;
+    margin-right: 1%;
+    width: 13rem;
+  }
+
+  .title {
+    font-size: 7.5rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .btn2 {
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    display: block;
+    margin-left: 0%;
+  }
 }

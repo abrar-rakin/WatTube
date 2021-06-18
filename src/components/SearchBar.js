@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./Home.css";
 
 const SearchBar = ({ onFormSubmit }) => {
   const [term, setTerm] = useState("");
@@ -10,7 +11,7 @@ const SearchBar = ({ onFormSubmit }) => {
   };
 
   return (
-    <div style={{ marginTop: "2%", marginBottom: "2%" }}>
+    <div className="srch" style={{ marginTop: "3%", marginBottom: "2%" }}>
       <form onSubmit={onSubmit} className="ui form">
         <div className="ui field">
           <input

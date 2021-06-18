@@ -26,7 +26,6 @@ export default function Dashboard() {
         variant="link"
         onClick={handleLogout}
         style={{
-          // backgroundColor: "#ffb26b",
           backgroundColor: "black",
           color: "#ffb26b",
           position: "absolute",
@@ -34,9 +33,9 @@ export default function Dashboard() {
           right: "0",
           width: "10%",
           height: "5%",
-          paddingTop: "0.5%",
-          paddingBottom: "2%",
+          padding: "0",
           fontWeight: "lighter",
+          fontSize: "100%",
         }}
       >
         Log Out
@@ -54,16 +53,6 @@ export default function Dashboard() {
           <button className="btn">Custom Search</button>
         </Link>
       </div>
-      {/* <div>
-        <button
-          style={{ marginRight: "0" }}
-          className="btn"
-          variant="link"
-          onClick={handleLogout}
-        >
-          Log Out
-        </button>
-      </div> */}
     </div>
   );
 }

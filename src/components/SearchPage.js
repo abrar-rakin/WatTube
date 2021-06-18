@@ -6,6 +6,8 @@ import useVideos from "../hooks/useVideos";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+import "./Home.css";
+
 const SearchPage = () => {
   const [selectedVideo, setSelectedVideo] = useState(null);
   const [videos, search] = useVideos("university of waterloo");
@@ -24,7 +26,7 @@ const SearchPage = () => {
         </button>
       </Link>
       <SearchBar onFormSubmit={search} />
-      <div className="ui stackable grid">
+      <div className="ui stackable grid" style={{ marginLeft: "0%" }}>
         <div className="ui row">
           <div className="eleven wide column">
             <VideoDetail video={selectedVideo} />

@@ -32,16 +32,16 @@ export default function Signup() {
   }
 
   return (
-    <div style={{ marginTop: "5%", marginLeft: "34%" }}>
+    <div style={{ marginTop: "5%" }}>
       <Container
         className="d-flex align-items-center justify-content-center"
         style={{ minHeight: "100vh" }}
       >
-        <div className="w-100" style={{ maxWidth: "400px" }}>
+        <div className="w-100" style={{ maxWidth: "400px", margin: "auto" }}>
           <Card>
             <Card.Body>
               <h2
-                style={{ color: "white", fontSize: "4vw" }}
+                style={{ color: "white", fontSize: "4rem" }}
                 className="text-center mb-4"
               >
                 Sign Up

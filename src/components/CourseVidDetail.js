@@ -4,8 +4,11 @@ const CourseVidDetail = ({ video }) => {
   if (!video) {
     return (
       <div style={{ color: "white", fontWeight: "100", fontSize: "150%" }}>
-        These are videos that I personally found helpful while doing the course.
+        {/* These are videos that I personally found helpful while doing the course. */}
         <br />
+        <br />
+        <br />
+        These are videos that I personally found helpful while doing the course.
         <br />
         <br />
         <br />
