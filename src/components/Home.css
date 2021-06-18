@@ -92,3 +92,9 @@ body {
     margin-left: 0%;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 6.5rem;
+  }
+}
