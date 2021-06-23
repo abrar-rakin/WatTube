@@ -65,10 +65,6 @@ const CourseVidDetail = ({ video }) => {
     );
   }
 
-  // if (!video) {
-  //   return <div style={{ color: "white" }}>Loading..</div>;
-  // }
-
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
 
   return (

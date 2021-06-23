@@ -16,8 +16,6 @@ const SearchPage = () => {
     setSelectedVideo(videos[0]);
   }, [videos]);
 
-  // if (videos[0]) console.log(videos[0].id);
-
   return (
     <div className="ui container">
       <Link to="/">

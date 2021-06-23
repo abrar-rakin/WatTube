@@ -22,7 +22,7 @@ export default function Dashboard() {
   return (
     <div>
       <button
-        className="btn"
+        className="btn3"
         variant="link"
         onClick={handleLogout}
         style={{

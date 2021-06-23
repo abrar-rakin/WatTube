@@ -76,13 +76,12 @@ const CS135 = () => {
 
   if (check(videos)) {
     return (
-      <div className="ui container replace">
+      <div className="ui container" style={{ marginTop: "4%" }}>
         <Link to="/">
           <button className="btn2">
             <FontAwesomeIcon icon={faHome} />
           </button>
         </Link>
-        {/* <SearchBar onFormSubmit={search || f} /> */}
         <div className="ui stackable grid">
           <div className="ui row">
             <div className="eleven wide column">
